@@ -1,0 +1,46 @@
+/* html {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-top: 15%;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
+.display-text{
+    display: none;
+} */
+
+
+/* table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid peru;
+}
+
+th {
+  text-align: center;
+}
+
+td,
+th {
+  padding: 5px;
+} */
+
+.form{
+  margin-left:10px;
+  margin-top: 10px;
+}
+.name-form{
+  padding-bottom: 10px;
+}
+.name-form>span{
+  color: #dd0000;
+  display: none;
+}
