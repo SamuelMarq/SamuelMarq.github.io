@@ -34,14 +34,14 @@ th {
 } */
 
 main {
-  padding-top: 15%;
+  padding-top: 1%;
   padding-left: 30%;
   padding-right: 30%;
 }
 
 .form{
-  margin-left:10px;
-  margin-top: 10px;
+  margin-left:16vh;
+  margin-top: 1vh;
 }
 .name-form{
   padding-bottom: 10px;
@@ -49,4 +49,8 @@ main {
 .name-form>span{
   color: #dd0000;
   display: none;
+  margin-left:3vh;
+}
+.form>#btn{
+  margin-left:6vh;
 }
