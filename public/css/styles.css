@@ -5,8 +5,8 @@
 
 main {
   padding-top: 15%;
-  padding-left: 40%;
-  padding-right: 40%;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 .display-text{
@@ -32,6 +32,12 @@ td,
 th {
   padding: 5px;
 } */
+
+main {
+  padding-top: 15%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
 
 .form{
   margin-left:10px;
