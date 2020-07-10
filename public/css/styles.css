@@ -32,25 +32,26 @@ td,
 th {
   padding: 5px;
 } */
-
-main>div {
-  padding-top: 1%;
-  padding-left: 30%;
-  padding-right: 30%;
+nav{
+  position: fixed;
 }
 
-.form{
-  margin-left:16vh;
+/* img{
+  width: 60vh;
+} */
+
+/* .form{
+  margin-left:10vw;
   margin-top: 1vh;
-}
+} */
 .name-form{
   padding-bottom: 10px;
 }
-.name-form>span{
+#name-error-span{
   color: #dd0000;
   display: none;
-  margin-left:3vh;
+  margin-left:3vw;
 }
 .form>#btn{
-  margin-left:6vh;
+  margin-left:4vw;
 }

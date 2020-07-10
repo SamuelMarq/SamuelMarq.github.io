@@ -112,41 +112,61 @@
                     <input type="submit" value="Submit">
                 </form>
             </div> -->
-            <nav>
+            <nav class="navbar">
                 <a href="index.html">Home</a>
                 <a href="education.html">Education</a>
                 <a href="career.html">Career</a>
                 <a href="projects.html">Projects</a>
             </nav>
-            <div>
-                <div>
-                    <img src="public/images/img2.jpg" alt="imagem alternativa quando não carrega">
-                </div>
-                <div class="form">
-                    <div class="name-form">
-                        <label>Name</label>
-                        <input type="text" id="name-input">
-                        <span id="name-error-span" class="error">Introduza um nome</span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+                    <div class="col-4" style="align-content: center;">
+                        <div>
+                            <div>
+                                <img src="public/images/img2.jpg" alt="imagem alternativa quando não carrega" class="img-fluid">
+                                <p></p>
+                            </div>
+                            <div class="form">
+                                <div class="name-form">
+                                    <label>Name</label>
+                                    <input type="text" id="name-input"style="display:-webkit-inline-flex;">
+                                    <button id="btn" class="buttone" name=button-1>Click Here</button>
+                                    <span id="name-error-span" class="error">Introduza um nome</span>
+                                </div>
+                            </div>
+                            <p></p>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Age</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <i class="fad fa-bed"></i>
+                                                Samuel
+                                            </td>
+                                            <td>24</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
-                    <button id="btn" class="buttone" name=button-1>Click Here</button>
-                </div>
-                <p></p>
-                <div class="table-responsive">
-                    <table class="table">
-                        <tr>
-                            <th>Name</th>
-                            <th>Age</th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <i class="fad fa-bed"></i>
-                                Samuel
-                            </td>
-                            <td>24</td>
-                        </tr>
-                    </table>
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
+                    <div class="col-1"></div>
                 </div>
             </div>
+            
         </main>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
