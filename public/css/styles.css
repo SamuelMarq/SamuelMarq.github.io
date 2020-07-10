@@ -33,7 +33,7 @@ th {
   padding: 5px;
 } */
 
-main {
+main>div {
   padding-top: 1%;
   padding-left: 30%;
   padding-right: 30%;
