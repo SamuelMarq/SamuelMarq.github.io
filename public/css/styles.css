@@ -40,18 +40,29 @@ nav{
   width: 60vh;
 } */
 
-/* .form{
-  margin-left:10vw;
-  margin-top: 1vh;
-} */
-.name-form{
-  padding-bottom: 10px;
+body{
+  background-color: #111111;
+  color: aliceblue;
 }
-#name-error-span{
-  color: #dd0000;
-  display: none;
-  margin-left:3vw;
+
+.profImg{
+  padding-left: 4%;
 }
-.form>#btn{
-  margin-left:4vw;
+
+.subtitle{
+  padding-left: 8%;
+}
+
+.space{
+  height: 100vh;
+}
+
+.skImg{
+  height: 200px;
+  width: 200px;
+  padding: 1.25%;
+}
+
+.table{
+  color: aliceblue;
 }
