@@ -1,58 +1,22 @@
-/* html {
-  margin: 0;
-  padding: 0;
-}
 
-main {
-  padding-top: 15%;
-  padding-left: 30%;
-  padding-right: 30%;
-}
-
-.display-text{
-    display: none;
-} */
-
-
-/* table {
-  border-collapse: collapse;
-}
-
-table,
-th,
-td {
-  border: 1px solid peru;
-}
-
-th {
-  text-align: center;
-}
-
-td,
-th {
-  padding: 5px;
-} */
 nav{
   position: fixed;
 }
-
-/* img{
-  width: 60vh;
-} */
 
 body{
   background-color: #111111;
   color: aliceblue;
 }
 
+.prof{
+  text-align: center;
+}
+
 .profImg{
-  padding-left: 4%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.subtitle{
-  padding-left: 8%;
-}
-
 .space{
   height: 100vh;
 }
