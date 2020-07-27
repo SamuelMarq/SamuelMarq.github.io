@@ -18,7 +18,10 @@
         <main>
             <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
                 <a class="navbar-brand" href="index.html">Home</a>             
-                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-expanded="true">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
                   <ul class="navbar-nav mr-auto">
                       <li class="nav-item">
                           <a class="nav-link" href="#skills">Skills</a>
@@ -51,7 +54,8 @@
                             <h1 class="prof">Samuel Marques</h1>
                             <h2 class="prof">Junior Developer</h2>
                             <br>
-                            <h4 class="prof">Samuel95Marques@gmail.com</h4>
+                            <h4 class="prof"><a href="mailto:Samuel95Marques@Gmail.com">Samuel95Marques@Gmail.com</a></h4>
+                            <h4><a href="https://github.com/SamuelMarq" class="prof">Github</a></h4>
                         </div>
                     </div>
                     <div class="col-4"></div>
@@ -59,16 +63,36 @@
                     <div class="col-12" id="skills">
                         <br><br><br>
                         <h1>Skills</h1>
-                        <img src="public/images/C_Sharp-logo.png" class="skImg">
-                        <img src="public/images/python-logo.png" class="skImg">
-                        <img src="public/images/JS-logo.png" class="skImg">
-                        <img src="public/images/MariaDB-logo.png" class="skImg">
-                        <img src="public/images/sql-logo.png" class="skImg">
-                        <img src="public/images/html-logo.png" class="skImg">
-                        <img src="public/images/css-logo.png" class="skImg">
-                        <img src="public/images/WinServ-logo.jpg" class="skImg">
-                        <img src="public/images/debian-logo.png" class="skImg">
-                        <img src="public/images/VS-logo.jpg" class="skImg">
+                        <a href="https://docs.microsoft.com/en-us/dotnet/csharp/">
+                            <img src="public/images/C_Sharp-logo.png" class="skImg" data-toggle="tooltip" title="C#">
+                        </a>
+                        <a href="https://www.python.org/">
+                            <img src="public/images/python-logo.png" class="skImg" data-toggle="tooltip" title="Phython">
+                        </a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+                            <img src="public/images/JS-logo.png" class="skImg" data-toggle="tooltip" title="JavaScript">
+                        </a>
+                        <a href="https://mariadb.org/">
+                            <img src="public/images/MariaDB-logo.png" class="skImg" data-toggle="tooltip" title="MariaDB">
+                        </a>
+                        <a href="https://docs.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver15">
+                            <img src="public/images/sql-logo.png" class="skImg" data-toggle="tooltip" title="SQL Server">
+                        </a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                            <img src="public/images/html-logo.png" class="skImg" data-toggle="tooltip" title="HTML">
+                        </a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+                            <img src="public/images/css-logo.png" class="skImg" data-toggle="tooltip" title="CSS">
+                        </a>
+                        <a href="https://docs.microsoft.com/en-us/windows-server/">
+                            <img src="public/images/WinServ-logo.jpg" class="skImg" data-toggle="tooltip" title="Windows Server">
+                        </a>
+                        <a href="https://www.debian.org/">
+                            <img src="public/images/debian-logo.png" class="skImg" data-toggle="tooltip" title="Debian">
+                        </a>
+                        <a href="https://docs.microsoft.com/en-us/visualstudio/?view=vs-2019">
+                            <img src="public/images/VS-logo.jpg" class="skImg" data-toggle="tooltip" title="Visual Studio">
+                        </a>
                     </div>
                     <div class="col-12 space"></div>
                     <div class="col-12" id="projects">
@@ -86,13 +110,13 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Shokudex</td>
+                                            <td><a href="http://shokudex-001-site1.itempurl.com/" title="Shokudex" data-toggle="tooltip">Shokudex</a></td>
                                             <td>Recodme</td>
                                             <td>Development of a FoodLog Web Application, meant store its user's daily meals and help them track their caloric and nutritional intake.</td>
                                             <td>C#, .Net Core, Entity Framework Core, Razor pages, SQL Server, HTML, JS, CSS, Bootstrap</td>
                                         </tr>
                                         <tr>
-                                            <td>Lenyouse</td>
+                                            <td><a href="https://github.com/marcelatakayanagi/LennyouseProject">Lenyouse</a></td>
                                             <td>Recodme</td>
                                             <td>Development of a Web Api, to be used by a webpage or application to manage a restaurant.</td>
                                             <td>C#, .Net Core, SQL Server</td>
@@ -134,14 +158,14 @@
                                     <tbody>
                                         <tr>
                                             <td>Programing</td>
-                                            <td>Recodme</td>
+                                            <td><a href="http://www.recodme.pt/">Recodme</a></td>
                                         </tr>
                                         <tr>
                                             <td>Technical Specialist in Network Management and Computer Systems</td>
                                             <td>Instituto do Emprego e Formação Profissional de Alcântara</td>
                                         </tr>
                                         <tr>
-                                            <td>International Baccalaureate Diploma</td>
+                                            <td> <a href="https://www.ibo.org/programmes/diploma-programme/">International Baccalaureate Diploma</a></td>
                                             <td>Colégio Planalto</td>
                                         </tr>
                                     </tbody>
@@ -158,5 +182,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="public/js/scripts.js"></script>
+
     </body>
 </html>
